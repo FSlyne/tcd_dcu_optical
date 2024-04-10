@@ -13,13 +13,43 @@ print ("Setting up the Polatis ...")
 plts = Polatis('10.10.10.28','3082')
 plts.login()
 
+patch_list1 = [
+('BB_source', 'Lumentum_3_p1'),
+('Lumentum_3_line', 'Reel_Lycom_25043', 'Lumentum_3_line' ),
+('Lumentum_3_p1', 'OSA_MS9710C_1')
+]
 
-patch_list = [
-('BB_source', 'Lumentum_4_p1'),
-('Lumentum_4_line', 'Reel_Lycom_25043', 'Lumentum_4_line' ),
+patch_list2 = [
+('BB_source', 'Lumentum_3_p1'),
+('Lumentum_3_line', 'Reel_Lycom_25043', 'Lumentum_3_line' ),
+('Lumentum_3_p1', 'Lumentum_4_p1'),
+('Lumentum_4_line', 'Reel_Lycom_25028', 'Lumentum_4_line' ),
 ('Lumentum_4_p1', 'OSA_MS9710C_1')
 ]
 
+patch_list3 = [
+('BB_source', 'Lumentum_3_p1'),
+('Lumentum_3_line', 'Reel_Lycom_25043', 'Lumentum_3_line' ),
+('Lumentum_3_p1', 'Lumentum_4_p1'),
+('Lumentum_4_line', 'Reel_Lycom_25028', 'Lumentum_4_line' ),
+('Lumentum_4_p1', 'Lumentum_5_p1'),
+('Lumentum_5_line', 'Reel_Corning_25255a', 'Lumentum_5_line' ),
+('Lumentum_5_p1', 'OSA_MS9710C_1')
+]
+
+patch_list4 = [
+('BB_source', 'Lumentum_3_p1'),
+('Lumentum_3_line', 'Reel_Lycom_25043', 'Lumentum_3_line' ),
+('Lumentum_3_p1', 'Lumentum_4_p1'),
+('Lumentum_4_line', 'Reel_Lycom_25028', 'Lumentum_4_line' ),
+('Lumentum_4_p1', 'Lumentum_5_p1'),
+('Lumentum_5_line', 'Reel_Corning_25255a', 'Lumentum_5_line' ),
+('Lumentum_5_p1', 'Lumentum_6_p1'),
+('Lumentum_6_line', 'Reel_Corning_25220', 'Lumentum_6_line' ),
+('Lumentum_6_p1', 'OSA_MS9710C_1')
+]
+
+patch_list = patch_list4
 
 if option == 0:
 #    plts.clearallconn()

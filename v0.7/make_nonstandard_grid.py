@@ -2,7 +2,7 @@ import json
 
 from tcdona2.lumentum2 import *
 
-roadm_ip_list=['10.10.10.33', '10.10.10.32'] # roadm3
+roadm_ip_list=['10.10.10.29'] # roadm3, roadm4, roadm5, roadm6
 
 # centre 194950 Ghz
 chunk_50ghz=[
@@ -10,7 +10,7 @@ chunk_50ghz=[
 ]
 
 chunk_62_5ghz =[
-('194918.75', '194981.25', 1), # coherent
+('193915.25', '193977.75', 1), # coherent
 ]
 
 chunk_87_5ghz =[
@@ -18,7 +18,7 @@ chunk_87_5ghz =[
 ]
 
 chunk_100ghz =[
-('194000.0', '193900.0', 1), # coherent
+('193900.0', '194000.0', 1), # coherent
 ]
 
 chunk = chunk_100ghz

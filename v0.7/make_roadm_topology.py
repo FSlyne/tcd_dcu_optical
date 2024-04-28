@@ -14,13 +14,9 @@ plts = Polatis('10.10.10.28','3082')
 plts.login()
 
 patch_list1 = [
-('ADVA_1_TF1_p2', 'Lumentum_4_p1', 'ADVA_1_TF1_p2'),
-('fibre_03', 'Lumentum_4_p2', 'fibre_03'),
-# ('BB_source', 'Lumentum_4_p3'),
-('Lumentum_4_line', 'Reel_Corning_12646', 'Lumentum_4_line' ),
-('BB_source', 'Lumentum_3_line'),
-# ('Lumentum_3_p1', 'OSA_MS9710C_1')
-('Lumentum_3_p1', 'Lumentum_4_p4')
+('BB_source', 'Lumentum_3_p1'),
+('Lumentum_3_line', 'Reel_Lycom_25043', 'Lumentum_3_line' ),
+('Lumentum_3_p1', 'OSA_MS9710C_1')
 ]
 
 patch_list2 = [

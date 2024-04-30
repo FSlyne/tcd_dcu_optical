@@ -13,8 +13,8 @@ print(line_ports)
 
 line_port2 = '1/1/n1'
 
-logical_interface2 = 'ot100'
-modulation2 = 'dp-qpsk'
+logical_interface2 = 'ot200'
+modulation2 = 'dp-p-16qam'
 target_power2 = .6
 central_frequency2 =  193950000  # [MHz] 193825000 # 194950000
 

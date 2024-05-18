@@ -11,12 +11,12 @@ config = tf.return_current_config()
 line_ports = config.keys()
 print(line_ports)
 
-line_port2 = '1/1/n2'
+line_port2 = '1/2/n1'
 
 logical_interface2 = 'ot100'
 modulation2 = 'dp-qpsk'
 target_power2 = .6
-central_frequency2 =  193950000  # [MHz] 193825000 # 194950000
+central_frequency2 =  191000000  # [MHz] 193825000 # 194950000
 
 tf.set_interface_off(line_port2)
 sleep_counter = tf.change_configuration(line_port=line_port2, logical_interface=logical_interface2,

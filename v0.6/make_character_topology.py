@@ -96,17 +96,17 @@ patch_list6 = [
 ('Lumentum_3_line', 'Reel_Corning_50438', 'Lumentum_6_line'),
 # short path
 ('Lumentum_6_p1', 'Lumentum_1_p1'),
-('Lumentum_1_line', 'Reel_Corning_50441','Lumentum_1_line' ),
+('Lumentum_1_line', 'Reel_Corning_39845', 'Reel_Alcatel_10848','Lumentum_1_line' ),
 # long path
 ('Lumentum_1_p1', 'Lumentum_5_p1'),
-('Lumentum_5_line','Reel_Corning_50450', 'Lumentum_5_line' ),
+('Lumentum_5_line','Reel_Lycom_27066', 'Reel_Corning_25220','Lumentum_5_line' ),
 ('Lumentum_5_p1', 'Lumentum_4_p1'),
-('Lumentum_4_line', 'Reel_Corning_50458b', 'Lumentum_4_line' ),
+('Lumentum_4_line', 'Reel_Lycom_25043', 'Reel_Lycom_25028', 'Lumentum_4_line' ),
 # teraflex
 ('ADVA_1_TF1_p2', 'Lumentum_3_p2'),
 ('ADVA_2_TF1_p1', 'Lumentum_3_p3'),
-('Lumentum_4_p1', 'ADVA_1_TF1_p2'),
-('Lumentum_4_p2', 'ADVA_2_TF1_p1')
+('Lumentum_4_p2', 'ADVA_1_TF1_p2'),
+('Lumentum_4_p3', 'ADVA_2_TF1_p1')
 ]
 
 
